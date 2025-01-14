@@ -1,0 +1,11 @@
+id,content,answer,score
+1,1 + 1 = ?,2,2
+2,2 * 2 = ?,4,2
+3,7 / 7 = ?,1,2
+4,108 - 8 = ?,100,2
+5,What is the average of 1 2 3 4 5?,3,2
+6,What the letter after A?,B,3
+7,What the letter after B?,C,3
+8,What the letter after C?,D,4
+9,Which letter of the alphabet holds the most water?,C,5
+10,Which letter of the alphabet you can drink?,T,5
