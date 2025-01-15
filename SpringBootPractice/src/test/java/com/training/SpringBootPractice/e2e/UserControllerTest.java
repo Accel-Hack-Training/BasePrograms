@@ -4,6 +4,7 @@ import com.github.springtestdbunit.TransactionDbUnitTestExecutionListener;
 import com.github.springtestdbunit.annotation.DatabaseSetup;
 import com.github.springtestdbunit.annotation.DbUnitConfiguration;
 import com.training.SpringBootPractice.dataset.CsvDataSetLoader;
+import com.training.SpringBootPractice.model.Role;
 import com.training.SpringBootPractice.model.User;
 import com.training.SpringBootPractice.utils.ObjectMapperUtils;
 import org.junit.jupiter.api.BeforeEach;
@@ -72,6 +73,12 @@ public class UserControllerTest extends AbstractControllerTest {
         .name("newUser")
         .email("mewUser@accelhack-training.com")
         .password("password")
+        .role(
+          Role.builder()
+            .id(1L)
+            .name("admin")
+            .build()
+        )
         .build();
 
     performPost(url, ObjectMapperUtils.getMapper().writeValueAsString(newUser))

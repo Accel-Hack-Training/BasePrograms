@@ -20,5 +20,3 @@
 ``課題２`` `RoleService`の実装が完了したら、RoleServiceのテストを実装してください。<br/>
 実装の必要があるクラス一覧
 - `test/../com/training/SpringBootPractice/service/RoleServiceTest.java`
-    
-``課題３`` 全てのテストが成功したら、次のmoduleに進んでください。
