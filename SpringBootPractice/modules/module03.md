@@ -12,7 +12,6 @@
 ## 3.2. RoleServiceの実装
 ``課題１`` データベースからRoleを取得する`RoleService`を実装してください。<br/>
 実装の必要があるクラス一覧
-- `com/training/SpringBootPractice/model/Role.java`
 - `com/training/SpringBootPractice/service/RoleService.java`
 - `com/training/SpringBootPractice/service/impl/RoleServiceImpl.java`
 - `com/training/SpringBootPractice/repository/RoleRepository.java`
